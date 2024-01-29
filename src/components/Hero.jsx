@@ -28,8 +28,8 @@ export function Hero() {
         for small businesses.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        This product is crafted entirly from audience use cases. It's evolving
-        and might already have what you need.
+        This product is crafted entirly from audience use cases. It&apos;s
+        evolving and might already have what you need.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Get 6 months free</Button>

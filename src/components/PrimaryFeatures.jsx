@@ -79,7 +79,7 @@ export function PrimaryFeatures() {
             Everything you need to run manage your stock and balance.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            This product is crafted entirly from audience use cases. It's
+            This product is crafted entirly from audience use cases. It&apos;s
             evolving and might already have what you need.
           </p>
         </div>
