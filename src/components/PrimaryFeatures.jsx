@@ -7,33 +7,37 @@ import { useEffect, useState } from 'react'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
+import balance from '@/images/screenshots/balance.png'
 import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
+import statistics from '@/images/screenshots/statistics.png'
+import stock from '@/images/screenshots/stock.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import vendor from '@/images/screenshots/vendor.png'
 
 const features = [
   {
     title: 'Statistics',
     description: 'Get statistics of business growth.',
-    image: screenshotReporting,
+    image: statistics,
   },
   {
     title: 'Stock',
     description:
       "Keep track of stock. Your stock is your assets. Keep track of what you have in stock and what's out of stock.",
-    image: screenshotPayroll,
+    image: stock,
   },
   {
     title: 'Balance',
     description:
       'Keep track of balance. Never lose a single digit ever again. ',
-    image: screenshotExpenses,
+    image: balance,
   },
   {
-    title: 'Reports',
+    title: 'Products',
     description: 'Send balancesheet and invoice to customers or venders.',
-    image: screenshotVatReturns,
+    image: vendor,
   },
 ]
 
