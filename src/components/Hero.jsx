@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import agile from '@/images/logos/agile.png'
+import alfaisal from '@/images/logos/al-faisal.png'
 import logoLaravel from '@/images/logos/laravel.svg'
 import lid from '@/images/logos/lid.png'
 import logoMirage from '@/images/logos/mirage.svg'
@@ -60,7 +61,7 @@ export function Hero() {
             [
               { name: 'Step2Agility', logo: agile },
               { name: 'Light In Dark', logo: lid },
-              { name: 'StaticKit', logo: logoStaticKit },
+              { name: 'Al Faisal', logo: alfaisal },
             ],
             [
               { name: 'Mirage', logo: logoMirage },
