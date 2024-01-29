@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
+import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
@@ -14,28 +14,26 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Statistics',
+    description: 'Get statistics of business growth.',
+    image: screenshotReporting,
+  },
+  {
+    title: 'Stock',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Keep track of stock. Your stock is your assets. Keep track of what you have in stock and what's out of stock.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Balance',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Keep track of balance. Never lose a single digit ever again. ',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+    title: 'Reports',
+    description: 'Send balancesheet and invoice to customers or venders.',
     image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
   },
 ]
 
@@ -74,11 +72,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Everything you need to run manage your stock and balance.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            This product is crafted entirly from audience use cases. It's
+            evolving and might already have what you need.
           </p>
         </div>
         <Tab.Group

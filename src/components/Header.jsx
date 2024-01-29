@@ -1,9 +1,9 @@
 'use client'
 
-import { Fragment } from 'react'
-import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
+import Link from 'next/link'
+import { Fragment } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -112,7 +112,7 @@ export function Header() {
             </div>
             <Button href="/register" color="blue">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                Get started <span className="hidden lg:inline">for free</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
