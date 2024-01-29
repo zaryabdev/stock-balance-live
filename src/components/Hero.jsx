@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
+import lid from '@/images/logos/lid.png'
 import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
@@ -57,7 +58,7 @@ export function Hero() {
           {[
             [
               { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
+              { name: 'Tuple', logo: lid },
               { name: 'StaticKit', logo: logoStaticKit },
             ],
             [
